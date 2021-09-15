@@ -1,0 +1,23 @@
+{
+  "name": "@sun/sun-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "sun": "bin/sun.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.2.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.4",
+    "npmlog": "^5.0.1",
+    "request-progress": "^3.0.0"
+  }
+}
